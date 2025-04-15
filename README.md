@@ -52,22 +52,6 @@ In this project, I delve into how this trend gained traction by performing detai
 - Geopandas
 - Webdriver-Manager
 - PIL
-   
-### Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your_username/ghibli-ai-trend-analysis.git
-
-Install dependencies:
-
-Install dependencies by running:
-   ```bash
-   pip install -r requirements.txt
-
-  ```bash
-  pip install -r requirements.txt
 
 Run the Jupyter Notebook: Open the notebook ghibli_trend_analysis.ipynb in Jupyter or Jupyter Lab to execute the analysis.
 
@@ -83,3 +67,20 @@ This analysis provides valuable insights into the Ghibli AI Art trend’s rise a
 
 ## Usage
 You can explore and modify the notebook to further analyze trends or use the data for creating new insights. The included shapefile can be used to visualize global patterns and regional differences in interest.
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your_username/ghibli-ai-trend-analysis.git
+
+Install dependencies:
+
+Install dependencies by running:
+   ```bash
+   pip install -r requirements.txt
+
+  ```bash
+  pip install -r requirements.txt
+
