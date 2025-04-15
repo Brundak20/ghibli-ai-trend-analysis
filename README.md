@@ -79,7 +79,7 @@ You can explore and modify the notebook to further analyze trends or use the dat
 ## Installation
 
 # Clone the repository:
-git clone https://github.com/your_username/ghibli-ai-trend-analysis.git
+git clone https://github.com/Brundak20/ghibli-ai-trend-analysis.git
 
 
 # Install dependencies by running:
