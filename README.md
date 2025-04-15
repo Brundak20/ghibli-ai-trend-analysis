@@ -6,29 +6,37 @@ This project analyzes the viral trend of Ghibli AI Art, a popular topic that too
 In this project, I delve into how this trend gained traction by performing detailed sentiment analysis on Reddit posts, tracking Google search trends, and analyzing regional and global interest. The analysis reveals intriguing insights about the virality of Ghibli AI art and the discussions surrounding it.
 
 ## Project Structure
-/ghibli-art-trend-analysis
-│
-├── /data               # Contains the raw data files used for analysis
-├── /notebooks          # Jupyter Notebooks containing analysis code
-│   ├── sentiment_analysis.ipynb    # Sentiment analysis of Reddit posts
-│   ├── google_trends_analysis.ipynb # Google Trends data analysis
-│   └── global_interest_analysis.ipynb # Mapping global interest and countries
-├── /visualizations     # Contains all the visualizations used in the project
-│   ├── sentiment_distribution.png
-│   ├── global_interest_map.png
-│   ├── reddit_activity.png
-│   └── ghibli_google_trend.png
-└── README.md           # Project overview and instructions
 
-/ghibli-art-trend-analysis │ ├── /data # Raw data files used for analysis ├── /notebooks # Jupyter Notebook containing the analysis code │ └── ghibli_trend_analysis.ipynb
-├── /visualizations # Generated visualizations (charts, maps) │ ├── sentiment_analysis_Reddit.png │ ├── top10_ghibli_interest_by_country.png │├── daily_reddit_posts.png │ └── ghibli_google_trend_annotated.png └── README.md # Project overview and instructions
+/ghibli-ai-trend-analysis  # Root directory of your project
+│
+├── /data  # Contains the raw data files used for analysis
+│   ├── World_Countries_Generalized/  # Folder with the shapefiles and associated files
+│   ├── ghibli_interest_by_region.csv
+│   ├── ghibli_interest_by_time.csv
+│
+├── /notebooks  # Jupyter Notebooks containing analysis code
+│   ├── ghibli_trend_analysis.ipynb  # Main notebook with Ghibli trend analysis
+│
+├── /visualizations  # Generated visualizations (charts, maps, etc.)
+│   ├── sentiment_analysis_Reddit.png
+│   ├── ghibli_interest_map.png
+│   ├── ghibli_google_trend_annotated.png
+│   └── daily_reddit_posts.png
+│   └── ghibli_interest_by_country.png
+│   └── ghibli_top_comments_plot.png
+│   └── top10_ghibli_interest_by_country_htmp.png
+│
+├── .gitignore  # Git ignore file to exclude unnecessary files
+├── README.md  # Project overview and instructions
+└── requirements.txt  # List of required dependencies
+
 
 ### Data Used:
 
 - **Reddit Data**: Extracted using the PRAW API, analyzing sentiment and user engagement with posts related to Ghibli AI art.
 - **Google Search Trends**: A CSV file containing search interest data over time, showing how interest in Ghibli AI art spiked dramatically in March 2025.
 - **Geospatial Data**: 
-  - **Shapefile**: [World_Countries_Generalized.zip](./World_Countries_Generalized.zip) - A shapefile used for mapping global interest in Ghibli AI art. This shapefile includes geometries for countries around the world.
+  - **Shapefile**: World_Countries_Generalized - A shapefile used for mapping global interest in Ghibli AI art. This shapefile includes geometries for countries around the world.
 
 ### Files:
 
