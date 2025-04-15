@@ -1,0 +1,11 @@
+pandas
+matplotlib
+plotly
+seaborn
+praw
+vaderSentiment
+selenium
+folium
+geopandas
+webdriver-manager
+PIL
