@@ -70,17 +70,10 @@ You can explore and modify the notebook to further analyze trends or use the dat
 
 ## Installation
 
-Clone the repository:
-
-```bash
+# Clone the repository:
 git clone https://github.com/your_username/ghibli-ai-trend-analysis.git
 
-Install dependencies:
 
-Install dependencies by running:
-   ```bash
+# Install dependencies by running:
    pip install -r requirements.txt
-
-  ```bash
-  pip install -r requirements.txt
 
